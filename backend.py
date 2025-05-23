@@ -47,7 +47,7 @@ def describe_image(image_path):
     return chat_response.choices[0].message.content
 
 
-print(
+(
     describe_image(
         image_path=r"C:\Users\jules\Desktop\9b4df25ff25c380e0c3e1be66e2190a6.jpg"
     )
